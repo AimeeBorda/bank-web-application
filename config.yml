@@ -1,0 +1,18 @@
+title: Bank Web Application
+description: >-
+  Create a small web application for a retail bank using the framework of your
+  choice. 
+template:
+  repo: bank-web-application-template
+  name: bank-web-application
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
