@@ -10,9 +10,80 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
+  - title: Welcome!
     description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/1'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: 00-respond.md
+      - type: createIssue
+        title: Create the Client class
+        body: 01-create-client.md
+  - title: Create Client Class
+    description: The second step in your course
+    event: issues.closed
+    actions:
+      - type: respond
+        with: 01-respond.md
+      - type: createIssue
+        title: Add an account to an existing client
+        body: 02-add-account.md
+    link: '{{ repoUrl }}/issues/2'
+  - title: Add an account to an existing client
+    description: The third step in your course
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/3'
+    actions:
+      - type: respond
+        with: 02-respond.md
+      - type: createIssue
+        title: Create login
+        body: 03-create-login.md
+  - title: Create login functionality
+    link: '{{ repoUrl }}/issues/4'
+    description: The fourth step in your course
+    event: issues.closed
+    actions:
+      - type: respond
+        with: 03-respond.md
+      - type: createIssue
+        title: List balance of accounts
+        body: 04-balance.md
+  - title: List balance of accounts
+    link: '{{ repoUrl }}/issues/5'
+    description: The fifth step in your course
+    event: issues.closed
+    actions:
+      - type: respond
+        with: 04-respond.md
+      - type: createIssue
+        title: List the transactions of an account
+        body: 05-list-transactions.md
+  - title: List the transactions of an account
+    link: '{{ repoUrl }}/issues/6'
+    description: The sixth step in your course
+    event: issues.closed
+    actions:
+      - type: respond
+        with: 05-respond.md
+      - type: createIssue
+        title: Transfer Money between accounts and clients
+        body: 06-transfer-money.md
+  - title: Transfer Money between accounts and clients
+    description: The seventh step in your course
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/7'
+    actions:
+      - type: respond
+        with: 06-respond.md
+      - type: createIssue
+        title: Update profile using password **Bonus**
+        body: 07-update-profile.md
+  - title: Update profile using password **Bonus**
+    description: The last step in your course
+    event: issues.closed
+    link: '{{ repoUrl }}/issues/8'
+    actions:
+      - type: respond
+        with: 07-finish.md
