@@ -1,0 +1,1 @@
+Now clients know how much money they have in their accounts, but how do they keep track of transactions? Check out the next issue at {{repoUrl}}/issues/6

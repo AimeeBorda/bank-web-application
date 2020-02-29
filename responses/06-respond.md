@@ -1,0 +1,1 @@
+Great work! Now clients can fully use their account and transfer money to and from their friends. There is a extra bonus step for the adventurous coders - see {{repoUrl}}/issues/7

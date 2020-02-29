@@ -1,0 +1,1 @@
+Awesome stuff! Clients can login into their bank account. Clients are eager to start using them. Check out the next issue {{repoUrl}}/issues/5 to find out what is needed to do so clients can put and withdraw money from their accounts.
