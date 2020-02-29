@@ -18,3 +18,6 @@ Clients of the bank should be able to do the following:
 5. Update their profile including their password (bonus)
 
 Create 2-3 test profiles (each with a couple of accounts) to showcase the web application.
+
+
+There is an isssue created for you. Please open it and follow the instructions.
