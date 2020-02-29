@@ -1,0 +1,1 @@
+Clients should have an easy way to see the balance of all their accounts! 

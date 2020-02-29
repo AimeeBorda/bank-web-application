@@ -1,0 +1,1 @@
+This is a bonus question. For security reasonss, we should validate customers when updating their profile by asking for the password!
